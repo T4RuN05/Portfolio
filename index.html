@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+
+        body {
+            font-family: League Spartan;
+        }
+        
+        .container {
+            background-color: #222831;
+            height: 100%;
+            padding-top: 20px;
+            padding-bottom: 200px;
+            
+        }
+
+        .Mainpic {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 200px;
+        }
+
+        .Mainpic img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+
+        .heading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .heading h1 {
+            color: white;
+            margin: auto;
+            margin-top: 10px;
+        }
+
+        .subheading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        .subheading h4 {
+            color: white;
+            margin: auto;
+            margin-top: 10px;
+        }
+
+        .container1 {
+            background-color: #EEEEEE;
+            display: grid;
+            gap: 5rem;
+            grid-template-rows: 1fr;
+            grid-template-columns: 1fr;
+        }
+
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 5rem;
+            background-color: #EEEEEE;
+        }
+
+        .header p {
+            margin: auto;
+            margin-top: 20px;
+            font-weight: bolder;
+        }
+
+        .html {
+            display: inline-block;
+            padding-left: 100px;
+            padding-top: 100px;
+            padding-right: 30%;
+        }
+
+        .html img {
+            float: left;
+            
+        }
+
+        .html p {
+            margin-left: 27%;
+        }
+        
+        .html h2 {
+            margin-left: 27%;
+        }
+
+        .python {
+            display: inline-block;
+            padding-right: 100px;
+            padding-bottom: 100px;
+            padding-left: 30%;
+            
+        }
+
+        .python img {
+            float: right;
+        }
+
+        .python p {
+            text-align: right;
+            margin-right: 27%;
+        }
+
+        .python h2 {
+            text-align: right;
+            margin-right: 27%;
+        }
+
+        .container2 .email {
+            background-color: #EEEEEE;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            padding-top: 20%;
+            padding-bottom: 20%;
+        }
+
+        .container img {
+            scale: .8; opacity: 0;
+            animation: fade-in linear forwards;
+            animation-timeline: view();
+            animation-range: 250px 500px;
+        }
+
+        @keyframes fade-in {
+            to{ scale: 1; opacity: 1;}
+        }
+
+        .container1 img {
+            scale: .8; opacity: 0;
+            animation: fade-in linear forwards;
+            animation-timeline: view();
+            animation-range: 250px 500px;
+        }
+
+        @keyframes fade-in {
+            to{ scale: 1; opacity: 1;}
+        }
+
+        .container2 .header > p{
+            scale: .8; opacity: 0;
+            animation: fade-in linear forwards;
+            animation-timeline: view();
+            animation-range: 250px 500px;
+        }
+
+        @keyframes fade-in {
+            to{ scale: 1; opacity: 1;}
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="Mainpic">
+            <img  src="assets/1705595491016.jpg">
+        </div>
+        <div class="heading">
+            <h1>TARUN ASTHANA</h1>
+        </div>
+        <div class="subheading">
+            <h4>WEB-DEVELOPER</h4>
+        </div>
+    </div>
+    <div class="header">
+        <p><span style="color: #00ADB5;">my skills</span>.</p>
+    </div>
+    <div class="container1">
+        
+        <div class="html">
+            <img src="assets/hand-drawn-web-developers_23-2148819604.avif" alt="html" height="150" width="200">
+            <h2>HTML/CSS</h2>
+            <p>A great understanding and practical knowledge with this both languages. ​Created 10+ Projects Personal and Institutional as well.
+                This website is also an dynamic implementation of both html and Cascading style ​sheet (css) for short.</p>
+        </div>
+        <div class="python">
+            <img src="assets/istockphoto-1277836831-612x612.jpg" alt="PYTHON" height="150" width="200">
+            <h2>PYTHON</h2>
+            <p>I am a certified Python programmer with a strong grasp of the language's ​fundamentals and syntax. Having completed
+             over 20 projects, I've gained ​practical experience across various domains. This combination of certification ​and hands-on work demonstrates my commitment to mastering Python and ​adhering to best practices.</p>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="header">
+            <p><span style="color: #00ADB5;">contact</span> me</p>
+        </div>
+        <div class="email">
+            <p>tarunasthana2005@gmail.com</p>
+            
+            <p>+91 9004337486</p>
+        </div>
+        
+    </div>
+</body>
+
+</html>
